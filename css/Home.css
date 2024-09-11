@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    display: flex;
+    background-color: black;
+    overflow: hidden;
+    position: absolute;
+    height: 65px;
+    width: 100%;
+
+  }
+
+  .topnav .logo {
+    margin-right: 20px; 
+    height: 90px; 
+    margin-left: 20px;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+    font-size: 17px;
+    display: flex; justify-content: space-around
+  }
+
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: 0.3s;
+  }
+
+  .ticket-button {
+    border: 2px solid white;
+    
+  }
+
+  .video {
+    margin-top: 10px;
+    border: 0;
+  }
